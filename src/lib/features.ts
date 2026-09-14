@@ -18,7 +18,7 @@ function flag(raw: string | undefined, fallback: boolean): boolean {
 
 export const FEATURES = {
   /** Prepared sample mandates on the overview page and the template picker. */
-  samples: flag(process.env.NEXT_PUBLIC_SHOW_SAMPLES, true),
+  samples: flag(process.env.NEXT_PUBLIC_SHOW_SAMPLES, false),
   /** Live mandate registry and the mandate workspace routes. */
   mandates: flag(process.env.NEXT_PUBLIC_SHOW_MANDATES, true),
   /** Operator passport page. */
