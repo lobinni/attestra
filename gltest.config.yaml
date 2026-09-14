@@ -1,0 +1,14 @@
+# Direct tests run locally and require no network or funded account.
+# Add funded accounts only in a private local copy when running the live suite.
+networks:
+  default: localnet
+
+  localnet:
+    url: "http://127.0.0.1:4000/api"
+
+  studionet: {}
+
+paths:
+  contracts: "contracts"
+
+environment: .env

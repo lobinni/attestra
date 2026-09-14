@@ -1,0 +1,32 @@
+{
+  "network": "studionet",
+  "chainId": 61999,
+  "chainIdHex": "0xf22f",
+  "chainName": "GenLayer StudioNet",
+  "rpcUrl": "https://studio.genlayer.com/api",
+  "explorerUrl": "https://explorer-studio.genlayer.com",
+  "nativeCurrency": {
+    "name": "GEN",
+    "symbol": "GEN",
+    "decimals": 18
+  },
+  "contract": {
+    "name": "Attestra",
+    "version": "Attestra-1.0.0",
+    "status": "deployed-and-byte-verified",
+    "address": "0xbF2a9b0cC3eF529bFFF1873e7FCEB6CecfbdD1BC",
+    "explorerUrl": "https://explorer-studio.genlayer.com/address/0xbF2a9b0cC3eF529bFFF1873e7FCEB6CecfbdD1BC",
+    "owner": "0xCBf6811ff846325d1aE1049ab61CC5D29ddA7cA4",
+    "source": "contracts/attestra.py",
+    "sourceSha256": "ff23befdc6db88f8ceeeb4ced0cdc8601263d5f5e3428e28dc6606deb06d6a9d",
+    "sourceLines": 2293,
+    "sourceBytes": 90499,
+    "onchainTransportBytes": 92792,
+    "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+    "publicMethods": 28,
+    "readMethods": 10,
+    "writeMethods": 18,
+    "verifiedAt": "2026-09-13",
+    "verification": "gen_getContractCode returned the deployed source. After CRLF, BOM, result-banner and trailing-blank-line normalization, scripts/verify_deployment.py reported an exact SHA-256 match with contracts/attestra.py. gen_getContractSchema reported 28 public methods and get_protocol_info returned Attestra-1.0.0 from chain 61999."
+  }
+}

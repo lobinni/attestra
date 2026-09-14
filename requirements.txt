@@ -1,0 +1,7 @@
+# Contract tooling, pinned to the runtime used by the deployment target.
+# The direct-mode and linter APIs have changed between releases; update these
+# together and rerun both the linter and the complete direct suite.
+genlayer-test==0.29.2
+genvm-linter==0.11.0
+genlayer-py==0.16.3
+pytest==9.1.1
