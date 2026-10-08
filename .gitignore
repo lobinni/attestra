@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Next.js and Vercel
+.next/
+out/
+.vercel/
+
+# Local environment files (public defaults belong in .env.example)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Python and contract test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+artifacts/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
